@@ -1,0 +1,161 @@
+@media(max-width :576px) {
+    #bannar {
+        padding-top: 50px;
+    }
+
+    .bannar-text h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .bannar-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bannar-text p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .bannar-box {
+        width: 100%;
+        padding: 15px;
+        margin-top: 35px;
+    }
+
+    .bannar-box .col-lg-3 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .bannar-box span {
+        font-size: 17px;
+    }
+
+    .bannar-box p {
+        font-size: 14px;
+    }
+
+    .search {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+
+    }
+}
+
+@media (min-width:577px)and(max-width:776px) {
+    #bannar {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+
+    .bannar-text {
+        width: 100%;
+
+    }
+
+    .bannar-text h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .bannar-text p {
+        font-size: 15px;
+
+    }
+
+    .bannar-box {
+        width: 100%;
+        padding: 20px;
+        margin: 35px auto 0;
+    }
+
+    .bannar-box .col-lg-3 {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .search {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #bannar {
+        padding-top: 90px;
+        padding-bottom: 70px;
+    }
+
+    .bannar-text {
+        width: 80%;
+    }
+
+    .bannar-text h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .bannar-text p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .bannar-box {
+        width: 100%;
+        padding: 20px;
+        margin: 40px auto 0;
+    }
+
+    .bannar-box .col-lg-3 {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .search {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #bannar {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bannar-text {
+        max-width: 573px;
+    }
+
+    .bannar-text h1 {
+        font-size: 55px;
+        line-height: 68px;
+    }
+
+    .bannar-box {
+        width: 800px;
+        max-width: 100%;
+        margin: 50px auto 0;
+    }
+
+    .search {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .bannar-box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

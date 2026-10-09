@@ -1,0 +1,571 @@
+/* Navbar css */
+.navbar {
+    padding: 41px 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 52px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.Btn {
+    padding: 16px 35px;
+    background-color: #007F5F;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Navbar css */
+/* Bannar css start */
+#bannar {
+    background-image: url(../images/bannar.png);
+    background-repeat: no-repeat;
+    padding-top: 147px;
+    padding-bottom: 122px;
+}
+
+.bannar-text {
+    width: 573px;
+}
+
+.bannar-text h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 80px;
+}
+
+.bannar-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.bannar-box {
+    width: 800px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    padding: 23px 15px;
+    border-radius: 14px;
+    margin-top: 60px;
+}
+
+.bannar-box span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #292929;
+}
+
+.bannar-box p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.search {
+    background-color: #007F5F;
+    padding: 30px;
+    border-radius: 10px;
+    width: 82px;
+    height: 82px;
+    margin-left: 70px;
+}
+
+/* Bannar css */
+/* Travel Benefit For User start */
+#travel-section {
+    margin: 150px 0px;
+}
+
+.sec-heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.sec-heading {
+    text-align: center;
+}
+
+.sec-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    width: 680px;
+    margin: auto;
+}
+
+.cards {
+    width: 422px;
+    border-radius: 14px;
+    padding: 62px 114px 62px 45px;
+    cursor: pointer;
+    transition: linear 0.3s;
+    margin-top: 112px;
+}
+
+.cards:hover {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.20);
+}
+
+.cards img {
+    background-color: #007f5f17;
+    padding: 16px 18px;
+    border-radius: 4px
+}
+
+.cards h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1E1E1E;
+    padding-top: 42px;
+    padding-bottom: 20px;
+}
+
+.cards p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+
+/* Travel Benefit For User  end*/
+/* Popular Destination start */
+.Popular-Destination {
+    margin: 150px 0px;
+}
+
+.destination-card {
+    padding: 21px 20px 42px 20px;
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-top: 50px;
+    transition: linear 0.3s;
+}
+.destination-card:hover{
+    box-shadow: 0px 20px 50px rgba(0,0,0,0.20);
+    cursor: pointer;
+}
+.destination-card:hover button{
+    background-color: #007F5F;
+    color: #FFFFFF;
+    transition: linear 0.3s;
+}
+
+.destination-card h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+
+.destination-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+
+.person h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.person span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.review {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.review span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF8B00;
+}
+
+.destination-card .Btn {
+    background-color: transparent;
+    color: #007F5F;
+    border: 1px solid #007F5F;
+    margin-top: 30px;
+}
+
+/* Popular Destination end */
+/* Go Travel, Discover Remember Us start */
+#go-travel {
+    background-color: #1e1e1e18;
+    padding: 150px 0px;
+}
+
+.discover-text {
+    max-width: 516px;
+}
+
+.discover-text h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1E1E1E;
+
+}
+
+.discover-text ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    line-height: 30px;
+}
+
+.discover-text ul {
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+
+.discover-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.Discover-card {
+    width: 275px;
+    border-radius: 17px;
+    background-color: #FFFFFF;
+    padding: 62px 32px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.Discover-card:hover{
+    background-color: #007F5F;
+}
+.Discover-card:hover h3{
+    color: white;
+}
+.Discover-card:hover h5{
+    color: white;
+}
+.Discover-card h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1E1E1E;
+    padding-top: 20px;
+}
+.Discover-card h5 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.Discover-card img {
+    background-color: #007f5f1d;
+    padding: 15px;
+    border-radius: 14px;
+}
+.Discover-card:hover img {
+    background-color: white;
+    transition: 0.3s ease-in;
+}
+/* Go Travel, Discover Remember Us end */
+/* We have more than 1000 selected Destination start */
+#selected-Destination {
+    margin: 150px 0px;
+
+}
+
+.destination-text {
+    width: 516px;
+}
+
+.destination-text h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.destination-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.des-text {
+    width: 470px;
+}
+
+.des-text ul li {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    line-height: 30px;
+}
+
+.des-text ul {
+    padding: 0;
+}
+.accordion-item button{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+.accordion-item {
+    color: #1E1E1E;
+    background-color:transparent;
+    border:0px;
+}
+.accordion-body{
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+}
+.accordion-button:not(.collapsed) {
+    background-color:transparent;
+    box-shadow:none;
+}
+
+/* We have more than 1000 selected Destination end */
+/* Explore Top Destination start */
+.Explore {
+    margin: 130px 0px;
+}
+
+.explore-card {
+    width: 370px;
+    padding: 21px;
+    margin-top: 90px;
+    border-radius: 14px;
+    transition: linear 0.3s;
+}
+
+.explore-card:hover {
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.20);
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.explore-btn button{
+    background-color: #F3F3F3;
+    color: #616161;
+    transition: linear 0.3s;
+}
+.explore-btn button:hover{
+    background-color: #007F5F;
+    color: #FFFFFF;
+}
+
+.explore-card h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1E1E1E;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.explore-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.explore-text span {
+    color: #FF8B00;
+}
+
+.explore-card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #616161;
+}
+.carousel-indicator [data-bs-target] {
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:rgba(217, 13, 13, 0.279);
+}
+.carousel-indicator{
+    top: 0;
+    left: 0;
+}
+
+/* Explore Top Destination end */
+/* Testimonial start */
+.testimonial{
+    margin: 130px 0px;
+}
+.testimonial-slide h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.testimonial-slide p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    width: 538px;
+}
+.testimonial-slide h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.testimonial-slide img{
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+.testimonial-img{
+    position: relative;
+    width: 580px;
+    height: 524px;
+    
+}
+.testimonial-img-1{
+    left: 0;
+    bottom: 60px;
+    position: absolute;
+}
+.testimonial-img-2{
+    left:200px;
+    bottom: 0;
+    position: absolute;
+}
+.testimonial-img-3{
+    right:100px;
+    bottom: 200px;
+    position: absolute;
+}
+.testimonial-img-4{
+    top: 0;
+    right: 180px;
+    position: absolute;
+}.testimonial-img-5{
+    top: 190px;
+    left: 170px;
+    position: absolute;
+}
+.carousel-indicators [data-bs-target] {
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.279);
+}
+.carousel-indicators {
+    top: 274px;
+    left:-95%;
+}
+.carousel-indicators .active{
+    opacity: none;
+    background-color: #007F5F;
+}
+
+/* Testimonial end */
+/* Subscribe css start */
+#subscribe {
+    background-color: #007F5F;
+    padding: 150px 0px;
+}
+
+#subscribe .sec-heading h2 {
+    width: 600px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+#subscribe .sec-heading p {
+    width: 565px;
+    color: #ffffffcc;
+    padding-top: 20px;
+    padding-bottom: 52px;
+}
+
+.form {
+    width: 770px;
+    margin: auto;
+    padding: 10px 11px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 17px;
+}
+
+.Email {
+    border-style: none;
+    outline: none;
+    width: 100%;
+}
+
+.input .Btn {
+    position: absolute;
+    top: 15px;
+    right: 80px;
+}
+
+/* Subscribe css end */
+
+
+/* Footer css start */
+footer {
+    padding: 150px 0px;
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 30px;
+}
+
+.icon {
+    gap: 40px;
+    padding: 40px 0px;
+}
+
+.footer-menu h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.footer-menu ul {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 50px;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Footer css end */
+
+.accordion-button:focus{
+    outline: none;
+    box-shadow: none;
+}
