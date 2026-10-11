@@ -500,9 +500,14 @@
     }
 
 }
+
 @media (max-width: 576px) {
     .Explore {
         margin: 50px 0;
+    }
+
+    .destination-text {
+        width: 100%;
     }
 
     .destination-text h2 {
@@ -512,7 +517,7 @@
     }
 
     .destination-text p {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
         text-align: center;
     }
@@ -524,7 +529,7 @@
         margin-top: 25px;
     }
 
-    .explore-btn > div {
+    .explore-btn>div {
         max-width: 100%;
     }
 
@@ -541,7 +546,7 @@
         margin: 35px auto 20px;
     }
 
-    .explore-card > img {
+    .explore-card>img {
         width: 100%;
         height: auto;
         display: block;
@@ -583,6 +588,7 @@
         border-radius: 50%;
     }
 }
+
 @media (min-width: 577px) and (max-width: 767px) {
     .Explore {
         margin: 65px 0;
@@ -619,7 +625,7 @@
         margin: 35px auto 20px;
     }
 
-    .explore-card > img {
+    .explore-card>img {
         width: 100%;
         height: auto;
     }
@@ -647,6 +653,7 @@
         margin: 15px 0;
     }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     .Explore {
         margin: 80px 0;
@@ -680,7 +687,7 @@
         margin: 35px auto 20px;
     }
 
-    .explore-card > img {
+    .explore-card>img {
         width: 100%;
         height: auto;
     }
@@ -708,6 +715,7 @@
         margin: 15px 0;
     }
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .Explore {
         margin: 100px 0;
@@ -740,7 +748,7 @@
         margin-top: 60px;
     }
 
-    .explore-card > img {
+    .explore-card>img {
         width: 100%;
         height: auto;
     }
@@ -759,6 +767,7 @@
         line-height: 25px;
     }
 }
+
 @media (min-width: 1200px) {
     .Explore {
         margin: 130px 0;
@@ -771,7 +780,7 @@
         margin-top: 90px;
     }
 
-    .explore-card > img {
+    .explore-card>img {
         max-width: 100%;
         height: auto;
     }
